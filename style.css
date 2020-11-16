@@ -47,7 +47,7 @@
 .darkdocs .goog-toolbar-menu-button,
 .darkdocs .docs-title-input
 {
-  background: #777 !important;
+  background: #333 !important;
 }
 
 /* Items in the left navigation menu */
@@ -60,7 +60,7 @@
 /* Bullet Point Styling */
 .darkdocs .goog-inline-block,
 .darkdocs .kix-lineview-text-block {
-  color: #777 !important;
+  color: #bbb !important;
 }
 
 /* Text on the Share button at the top right of the screen */
@@ -83,4 +83,12 @@
 .darkdocs .docos-anchoredreplyview, .docos-showrepliesbutton,
 .darkdocs .docos-anchoreddocoview-input-pane {
 	background: #A9A9A9 !important;
+}
+
+#navigation-widget-bottom-fade {
+  background: linear-gradient(#141414 0%, #141414 100%);
+}
+
+.goog-toolbar-combo-button-input .jfk-textinput {
+  color: #bbb;
 }

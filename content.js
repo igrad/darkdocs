@@ -14,4 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
       $body.classList.remove('darkdocs');
     }
   });
+
+  document.querySelector('#fontSizeSelect.docs-font-size-inc-dec-combobox').setAttribute("style", "user-select: none; border-color: #555 !important;");
+  document.querySelector('#fontSizeIncrement.docs-font-size-inc-dec-action-button').setAttribute("style", "user-select: none; border-color: #555 !important;");
+  document.querySelector('#fontSizeDecrement.docs-font-size-inc-dec-action-button').setAttribute("style", "user-select: none; border-color: #555 !important;");
+
+  let menuBarTextInputs = document.getElementsByClassName('goog-toolbar-combo-button-input');
+  for (iter=0; iter < menuBarTextInputs.length; iter++) {
+    menuBarTextInputs[iter].setAttribute("style", "color: #bbb !important;");
+  }
 });
